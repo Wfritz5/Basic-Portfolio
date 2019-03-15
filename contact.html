@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Contact</title>
-
-<div class="nav">
-                <h1 class="Will">Will Fritz</h1>
-        <a href="file:///C:/Users/Will%20Fritz/Desktop/Basic-Portfolio/index.html#">About</a>
-        <a href="file:///C:/Users/Will%20Fritz/Desktop/Basic-Portfolio/portfolio.html">Portfolio</a>
-        <a href="file:///C:/Users/Will%20Fritz/Desktop/Basic-Portfolio/contact.html">Contact</a>
-</div>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    <title>About Me</title>
 </head>
+<body>
+    <header id="master">
+    <div class="container">
+        <h1 id="Will">Will Fritz</h1>
+        <nav>
+            <a href="file:///C:/Users/Will%20Fritz/Desktop/Basic-Portfolio/index.html#">About</a>
+            <a href="file:///C:/Users/Will%20Fritz/Desktop/Basic-Portfolio/portfolio.html">Portfolio</a>
+            <a href="file:///C:/Users/Will%20Fritz/Desktop/Basic-Portfolio/contact.html">Contact</a>
+            </nav>
+    </div>
+    </header>
+    
 
-<h2 id="Info" >Contact</h2>
+    <div id="main-info" class="container">
+            <section class="main-section">
+    <h1>Contact</h1>
+        <form id="Contact-form">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name=" placeholder="John Smith" required="required">
+                </li>
+                <li>
+                        <label for="Email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required="required"></textarea>
+                    </li>  
+            </ul>
+                    <input type="submit" name="submit">
+        </form>
 
-        <div class="contact">
-                
-                <form id="Contact" method="post" action="">
-                        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-                        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-                        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
-                        <input id="Button" type="Submit" class="form-control submit" value="Submit"> 
-                        </form>       
-                </div>
+        </section>
+
+
         
 
 
 </body>
-<footer id="Copy">
-                <p>Copyright &copy;</p>
-            </footer>
+<footer>
+<div>
+    <p>&copy; Copyright 2019 Will Fritz</p>
+</div>
+</footer>
 
 </html>
