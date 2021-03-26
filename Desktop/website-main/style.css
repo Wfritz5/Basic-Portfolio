@@ -1,0 +1,276 @@
+body {
+    max-width: 1080px;
+    background-image: url("images/pbBackgroundGALAXY.png");
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 200px;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#persona1 {
+    border: 2px solid black;
+}
+
+#homePageContent {
+    color: white;
+}
+
+
+#contactForm {
+    display: inline-block;
+    /* background: rgba(203, 201, 201, .9); */
+    padding: 10px 10px 0px;
+}
+
+/* s */
+
+
+/* #sendBtn {
+    margin-bottom: 50px;
+} */
+
+#work {
+    border: #00e74d .2rem solid;
+    color: white;
+}
+
+
+#features {
+    background-color: black;
+}
+
+#features img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    opacity: 0.5;
+    outline-offset: 0.8rem;
+    transition: all 1s ease;
+
+}
+
+#features img {
+    border: 2px solid #40474e;
+}
+
+.feature svg.svg-inline--fa {
+    color: #00e74d;
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    /* text-transform: uppercase; */
+    padding-bottom: .4rem;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.feature p {
+    font-size: 1.1rem;
+}
+
+.submit {
+    padding: 5px 36px;
+    border-radius: 10px;
+    background-color: #36cf55;
+    color: white;
+    /* margin-bottom: 30px; */
+    margin-top: 5px;
+    font-size: 16px;
+    border: none;
+
+}
+
+.submit:hover {
+    background-color: #Cf36CF;
+    transition-duration: .6s;
+    color: white;
+    cursor: pointer;
+
+}
+
+/* form {
+    margin: auto;
+} */
+
+#contactDiv {
+    /* padding-top: 50px; */
+}
+
+#aboutDiv {
+    padding-top: 50px;
+}
+
+.email {
+    margin-top: 30px;
+    margin: auto;
+    width: 300px;
+}
+
+.subject {
+    width: 300px;
+    margin: auto;
+}
+
+.socket {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    background-color: black;
+
+}
+
+#landing {
+    padding-top: 50px;
+}
+
+#personas {
+    background-color: black;
+}
+
+p.lead {
+    color: white;
+}
+
+#portheader {
+    color: black;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+.headingPortfolio {
+    margin-top: 10px;
+    color: black;
+}
+
+#personasDiv {
+    font-family: "Ubuntu", sans-serif;
+}
+
+#socialMedia {
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    position: relative;
+    /* padding-top: 1.5rem; */
+
+}
+
+
+#footerNavLink {
+    color: white;
+}
+
+#footerNav {
+    color: white;
+}
+
+#smlinks:hover {
+    color: #Cf36CF !important;
+    transition: .5s;
+}
+
+#footerNavLink:hover {
+    color: #Cf36CF;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.message {
+    width: 300px;
+    margin: 0 auto;
+    height: 160px;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    border-radius: 10px;
+    border: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #Cf36CF;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navbar {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    text-align: center;
+    display: inline-block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+blockquote {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    #homeImage {
+        padding-left: 20px;
+    }
+
+}
+
+#navbarResponsive ul {
+    list-style-type: none;
+    margin: 0 auto;
+    /* display: inline-block; */
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav-link:hover {
+    color: #Cf36CF !important;
+    transition: .4s;
+}
+
+.mainContainer {
+    max-width: 1080px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    background-size: cover;
+
+    padding-bottom: 50px;
+
+}
+
+h3 {
+    color: white;
+
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+    background-color: white;
+}

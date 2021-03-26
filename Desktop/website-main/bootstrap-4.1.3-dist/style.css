@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: green;
+}
+
+/* #funartistpage {
+    background-color: aqua;
+} */
+
+
+/* Need to work on media queries */
+
+
+.navbar {
+    font-family: 'Gochi Hand', cursive;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    font-size: 1.9rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+    background-color: white;
+}
+
+#jumbo2 {
+    background-color: white;
+}
+
+.about img {
+    margin-left: 40px;
+}
+
+/* landing page */
+
+.home-inner {
+    background-image: url(img/sandyClasses.jpg);
+}
+
+#contact {}
+
+#contactForm {
+    color: white;
+    text-align: center;
+    display: flex;
+    background-color: #05416b;
+    font-family: 'Aclonica', sans-serif;
+
+}
+
+#socialmedia {
+    background-color: #05416b;
+    border: .2rem solid white;
+    margin-top: 25px;
+}
+
+.email {
+    width: 100%;
+    ;
+}
+
+.subject {
+    width: 100%;
+}
+
+.message {
+    height: 150px;
+    width: 100%;
+
+}
+
+form {
+    margin: auto;
+}
+
+#galleryPic {
+    border: .2rem solid rgb(15, 87, 15);
+}
+
+/* #me {
+    transform: rotate(270deg);
+  } */
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caption h2 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg,
+.btn-sm,
+.btn-md,
+.btn-xs {
+    font-family: 'Aclonica', sans-serif;
+    border-width: small;
+    border-radius: 0;
+    font-size: .9rem;
+}
+
+label,
+input,
+textarea {
+    display: block;
+}
+
+
+
+footer {
+    background-image: url(img/sandyClasses.jpg);
+    background-repeat: no-repeat;
+    height: 1280;
+    width: 960;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+h3,
+h4,
+h5,
+p {
+    font-family: 'Aclonica', sans-serif;
+
+}
